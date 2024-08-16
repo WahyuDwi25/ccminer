@@ -14,6 +14,7 @@ cd ccminer
 chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
+chmod +x ccminer
 ./build.sh
 
 Uji Miner dengan perintah dibawah "Jangan Lupa ubah Wallet Addressnya"
