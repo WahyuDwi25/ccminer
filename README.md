@@ -27,6 +27,18 @@ nano autorun.sh
 Membuat autorun setelah restart atau shutdown
 crontab -e
 @reboot bash /root/ccminer/autorun.sh > /root/ccminer/miner.log 2>&1
+
+cek mining progress
+cd ccminer --enter
+tail -f miner.log
+
+cara ganti wallet/pool
+cd ccminer --enter
+nano autorun.sh
+
+cara cek version ccminer
+cd ccminer
+./ccminer --version
 ```
 
 For specific details on installing clang-16 on your current OS, check: https://apt.llvm.org/
