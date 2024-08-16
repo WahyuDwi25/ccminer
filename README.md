@@ -11,10 +11,10 @@ apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotool
 apt install git
 git clone https://github.com/WahyuDwi25/ccminer.git
 cd ccminer
+chmod +x ccminer
 chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
-chmod +x ccminer
 ./build.sh
 
 Uji Miner dengan perintah dibawah "Jangan Lupa ubah Wallet Addressnya"
