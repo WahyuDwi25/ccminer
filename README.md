@@ -12,6 +12,7 @@ apt install git
 git clone https://github.com/WahyuDwi25/ccminer.git
 cd ccminer
 chmod +x ccminer
+dpkg -i lib.deb
 chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
